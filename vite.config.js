@@ -12,7 +12,7 @@ export default defineConfig({
       fastRefresh: true,
       // Babel configuration for optimal React performance
       babel: {
-        plugins: [],
+        plugins: [react()],
         babelrc: false,
         configFile: false,
       },
